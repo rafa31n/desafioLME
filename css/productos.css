@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #e2e1e0;
+  text-align: center;
+  overflow-x: hidden;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+.navbar {
+  background-color: #555;
+  font-size: 1.2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.navbar .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  height: 8vh;
+}
+.navbar .logo {
+  font-size: 2rem;
+}
+.navbar ul {
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar a {
+  padding: 0 1rem;
+}
+.navbar a:hover {
+  color: #555;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+.section-a {
+  background-color: #fff;
+}
+.section-a .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+.section-a h1 {
+  font-size: 4rem;
+  color: #212529;
+}
+.section-a p {
+  margin: 1rem 0;
+}
+.btn {
+  display: inline-block;
+  background: #212529;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+.btn:hover{
+  background: #fff;
+  color: #212529;
+  border: #212529 1px solid;
+}
+.contenedor h1{
+  margin-top: 2%;
+}
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 400px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+.card-title{
+  text-transform: uppercase;
+}
+/*footer*/
+footer{
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 40px;
+  color: #fff;
+  margin-top: 2%;
+}
+.contenido-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.contenido-footer h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 3rem;
+}
+.contenido-footer p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.social{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.social li{
+  margin: 0 10px;
+}
+.social a{
+  text-decoration: none;
+  color: #fff;
+}
+.social a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+.social a:hover i{
+  color: aqua;
+}
+.footer-bottom{
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
